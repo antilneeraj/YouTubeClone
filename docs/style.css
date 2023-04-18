@@ -55,6 +55,7 @@ nav{
 
 .navMiddle .micIcon{
     width: 16px;
+    margin-left: 15px;
 }
 
 .navMiddle .searchBox{
@@ -80,7 +81,7 @@ nav{
 
 /* SideBar */
 
-.sidebar{
+aside{
     background:#FFF;
     width:15%;
     height:100vh;
@@ -102,7 +103,7 @@ nav{
     flex-wrap: wrap;
 }
 
-.sidebar hr{
+aside hr, hr{
     border: 0;
     height: 1px;
     width: 85%;
@@ -137,7 +138,7 @@ nav{
     display:none;
 }
 
-.small-sidebar hr{
+hr{
     width: 50%;
     margin-bottom: 25px;
 }
